@@ -54,7 +54,7 @@ def main():
     try:
         image = PIL.Image.open(path)
     except:
-        print(path, "不是一个有效的图片路径，请检查拼写。")
+        print(path, "不是一个有效的图片路径，请检查拼写")
         return
 
     # 3. 核心处理流程：Resize -> Grayscale -> ASCII Mapping
